@@ -19,7 +19,7 @@ Requires Python 3.x
 1. Open the analysis notebook:
    jupyter notebook
 
-   ## Data
+## Data
 
 The cleaned dataset is included in `data/processed/clean_data.csv` for convenience.
 
@@ -30,6 +30,6 @@ Raw data was sourced from:
 
 To reproduce the dataset from raw data:
 
-1. Place raw data files in `data/raw/`
+1. Place raw data files/folders in `data/raw/`
 2. Run:
    python src/data_cleaning.py
