@@ -22,7 +22,7 @@ def clean_data(gdp, life_expectancy, calories, vegetables, income_groups):
         "Entity": "country",
         "Year": "year",
         "GDP per capita": "gdp_per_capita",
-        "Life expectancy at birth, totals, period": "life_expentancy",
+        "Life expectancy at birth, totals, period": "life_expectancy",
         "Daily calorie supply per person": "daily_calorie_suppy_capita",
         "Vegetable supply per person": "yearly_vegetables_supply_kg_capita",
         "World Bank's income classification": "country_wb_income_group"
@@ -48,7 +48,7 @@ def clean_data(gdp, life_expectancy, calories, vegetables, income_groups):
     df = df[df["country"].isin(complete_countries)]
 
     # reorder so that income groups are the last column
-    df = df[["country", "year", "gdp_per_capita", "life_expentancy",
+    df = df[["country", "year", "gdp_per_capita", "life_expectancy",
         "daily_calorie_suppy_capita",
         "daily_vegetables_supply_g_capita", "country_wb_income_group"]]
     return df
