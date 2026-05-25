@@ -1,4 +1,4 @@
-country,year,gdp_per_capita,life_expectancy,daily_calorie_suppy_capita,daily_vegetables_supply_g_capita,country_wb_income_group
+country,year,gdp_per_capita,life_expectancy,daily_calorie_supply_capita,daily_vegetables_supply_g_capita,country_wb_income_group
 Afghanistan,1992,843.87537,46.5691,1966.9045,89.82249315068492,Low-income countries
 Afghanistan,1993,578.4028,51.0212,1939.6313,83.32777808219178,Low-income countries
 Afghanistan,1994,428.42456,50.9689,1846.2291,74.78853424657535,Low-income countries
